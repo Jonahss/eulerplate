@@ -1,0 +1,12 @@
+.eulerplate {
+  width: 100%;
+}
+
+.eulerplate:after {
+  content: "OPT OUT OF OUR WEEKLY NEWSLETTER.";
+  padding-left: 40px;
+}
+
+.eulerplate:checked:after {
+  content: "I WANT TO RECEIVE OCCASIONAL EMAILS ABOUT NEW PRODUCTS, PROMOTIONS AND OTHER NEWS.";
+}
