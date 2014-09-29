@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
   var checkbox = document.createElement('input');
   checkbox.setAttribute('type', 'checkbox');
   checkbox.setAttribute('class', 'eulerplate');
+  checkbox.setAttribute('checked', true);
 
   var submit = form.querySelector('input[type=submit]');
   if (submit){
