@@ -1,0 +1,24 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "style",
+        "src": "./gotcha.css"
+      },
+      {
+        "type": "script",
+        "src": "./gotcha.js"
+      }
+    ]
+  },
+  "options": {
+     "properties": {
+        "form": {
+          "title": "Form",
+          "type": "object",
+          "format": "element"
+        }
+      }
+    }
+  }
+}
